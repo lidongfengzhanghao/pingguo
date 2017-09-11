@@ -1,0 +1,534 @@
+@import url("base.css");
+body{/* height: 3000px; */background: #F2F2F2;}
+header{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+header main{
+	height: 100%;
+	/* background: yellow; */
+	margin: 0 auto;
+}
+.main-left{
+	height: 100%;
+	float: left;
+	font-size: 14px;
+	line-height: 40px;	
+}
+.main-left a{
+	color: #fff;
+}
+.main-left a:hover{color: #A8A8AA;}
+.main-left span{
+	color: #fff;
+}
+.main-right{
+	float: right;
+	font-size: 12px;
+	color: #A8A8AA;
+	line-height: 40px;
+}
+
+/* 头部结束 */
+/* 导航开始 */
+nav{
+	width: 100%;
+	height: 44px;
+	background: #323232;
+}
+.nav-box{
+	/* width: 976px; */
+	height: 100%;
+	/* background: yellow; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.nav-box li{
+	width: auto;
+	height: 100%;
+	font-size: 14px;
+	line-height: 44px;
+}
+.nav-box li a{
+	color: #fff;
+}
+.nav-box li a:hover{color: #A8A8AA;}
+.tubiao{
+	width: 
+}
+/* 导航结束 */
+/* 列表开始 */
+.list{
+	width: 100%;
+	/* height: 272px; */
+	background: #fff;
+	overflow: hidden;
+}
+.list ul{
+	width: 100%;
+	background: #fff;
+	margin-top: 2px;
+	display: flex;
+	justify-content: space-between;
+}
+.list ul li{
+	height: 100%;
+	background: pink;
+	border-right: 2px solid #fff;
+}
+.list ul li:last-child{
+	border-right: 0;
+}
+.list ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.list p{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	margin: 35px auto 0;
+}
+.list li:nth-child(2) p:last-child{
+	font-size: 12px;
+	margin-top: 0px;
+}
+.list .list-zi2 p{color: #000;}
+.list li:nth-child(3) p{color: #000;}
+.list li:last-child p span:first-child{
+	background-image: -webkit-linear-gradient(45deg,#7A7CB8,#E3B9E1,#ED6DE1,#3C96F5,#8697FF);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+/* 列表结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 542px;
+	background: yellow;
+	position: relative;
+	overflow: hidden;
+}
+.banner ul{
+	width: 100%;
+	height:100%;
+	background:gray;
+	position: relative;
+}
+.banner ul li{
+	width: 100%;
+	height: 100%;
+/* 	position: absolute;
+	top: 0;left: 0; */
+}
+.banner ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner ul li a p{
+	font-size: 32px;
+	color: #fff;
+	text-align: center;
+	margin:30px auto;
+}
+.banner-zi{
+	display: block;
+	height: 90px;
+	position: absolute;
+	top: 51px;left: 602px;
+	font-size: 42px;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+}
+.banner-zi div:first-child{
+	font-size: 32px;
+}
+.datiao{
+	/* margin: 400px auto 0;
+	margin-left:450px;
+	 */
+	position: absolute;
+	bottom: 30px;
+	left: 100px;
+}
+.datiao a{
+	width: 50px;
+	height: 2px;
+	background: #fff;	
+}
+/* banner结束 */
+/* 说明开始  */
+.explian{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.exp{
+	font-size: 14px;
+	color: #888888;
+	line-height: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-bottom: 1px solid #D6D6D6;
+}
+.about{
+	height: 295px;
+	background: #fff;
+	overflow: hidden;
+	margin: 0 auto;
+	background: #F2F2F2;
+}
+.about-box{
+	width: 20%;
+	height: 283px;
+	background: #fff;
+	margin-top: 16px;
+	background: #F2F2F2;
+	float: left;
+}
+.about-box li{
+	color: #000;
+	font-size: 12px;
+	line-height: 20px;
+}
+.about-box li a{
+	color: #555555;
+}
+.about-box li a:hover{
+	text-decoration: underline;
+}
+.about ul:nth-child(3) li:nth-child(4){
+	color: #000;
+	text-decoration: none;
+	margin-top: 40px;
+}
+.about ul:nth-child(4) li:nth-child(5){
+	color: #000;
+	text-decoration: none;
+	margin-top: 40px;
+}
+.about-bian{
+	width: 100%;
+	height: 273px;
+	margin-top: 21px;
+	margin: 0 auto;
+}
+.bian-box{
+	height: 100%;
+	background:#f2f2f2;	
+}
+.bian-box li{ 
+	height: 39px;
+	border-bottom: 1px solid #d6d6d6;
+
+}
+.xuan{
+	width:auto;
+	height: 100%;
+	font-size: 10px;
+	color: #333333;
+	line-height: 38px;
+	float: left;
+}
+.jia{
+	line-height: 38px;
+	float: right;
+}
+/* 说明结束 */
+/* end开始 */
+.end-one{
+	width: 100%;
+	background:#f2f2f2;		
+	margin: 0 auto;
+}
+.end-box{
+	border-bottom: 1px solid #d6d6d6;
+	font-size: 8px;
+	line-height: 30px;
+	margin-top: 31px;
+	color: #8888a2;
+}
+.end-two{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.two-zi{
+	margin: 0 auto;
+	line-height: 30px;
+	font-size: 8px;
+	color: #888895;
+	
+}
+.copy{float: left;}
+.end-two ul{
+	width: auto;
+	line-height: 12px;
+	font-size: 8px;	
+	float: left;
+}
+.end-two ul li{
+	height: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-right: 1px solid #d6d6d6;
+	float: left;
+}
+.end-two ul li:last-child{
+	border-right: 0;
+}
+.end-two ul li a{
+	color: #888895;
+}
+.zhongguo{
+	float:right;
+}
+.guotu{
+	width: 16px;
+	height: 16px;
+	margin-top: 3px;
+	float: left;
+}
+.guozi{
+	display: block;
+	font-size: 8px;
+	color: #888895;
+	line-height: 30px;
+	float: right;
+}
+.end-thr{
+	width: 100%;
+	/* height: 14px; */
+	margin: 0 auto;
+}
+.thr-zi{
+	height: 100%;
+/* 	background: red; */
+	font-size: 8px;
+	color: #999999;
+	padding-bottom: 60px;
+}
+/* end结束 */
+
+
+
+/* 大于1024px */
+@media screen and (min-width: 1024px){
+	header main{
+		width:976px;
+	}
+	.nav-box{
+		width:976px;
+	}
+	.fir{
+		display: block;
+	}
+	.sec{
+		display: none;
+	}
+	.list ul{
+		width: 100%;
+		height: 268px;
+	}
+	.list ul li{
+		width: 50%;
+		height: 272px;
+	}
+	.list ul li:first-child a{
+		background: url('../img/banner1.jpg') no-repeat center;
+		background-size: 100% 100%;
+	}
+	.list ul li:nth-child(2) a{
+		background: url('../img/ban-img2.jpg') no-repeat center;
+		background-size: 100% 100%;
+	}
+	.list ul li:nth-child(3) a{
+		background: url('../img/ban-img3.jpg') no-repeat center;
+		background-size: 100% 100%;
+	}
+	.list ul li:last-child a{
+		background: url('../img/ban-img4.png') no-repeat center;
+		background-size: 100% 100%;
+	}
+	.explian{
+		width: 976px;
+	}
+	.about{
+		width: 976px;
+	}
+	.about-bian{
+		width: 716px;
+	}
+	.about{display: block;}
+	.about-bian{display: none;}
+	.end-one,.end-two{
+		width: 976px;
+	}
+	.end-two ul{margin-top: 10px;}
+	.end-thr{width: 976px;}
+	.banner ul li a{
+	background: url('../img/banner1.jpg') no-repeat center;
+	background-size: 100% 100%;
+	}
+}
+/* 大于768px 小于1024px*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.list ul{
+		flex-wrap: wrap;
+	}
+	.list ul li{
+		width: 50%;
+		height: 268px;
+	}
+	.list ul li:nth-child(2){
+		border-right: none;
+	}
+	.list ul li:nth-child(3),.list ul li:nth-child(4){
+		margin-top: 2px;
+	}
+	.list ul li:first-child a{
+		background: url('../img/ban-img11.jpg') no-repeat center;
+		background-size: 100% 100%;
+	}
+	.list ul li:nth-child(2) a{
+		background: url('../img/ban-img22.jpg') no-repeat center;
+		background-size: 100% 100%;
+	}
+	.list ul li:nth-child(3) a{
+		background: url('../img/ban-img33.jpg') no-repeat center;
+		background-size: 100% 100%;
+	}
+	.list ul li:last-child a{
+		background: url('../img/ban-img44.png') no-repeat center;
+		background-size: 100% 100%;
+	}
+	.explian{
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.about{
+		padding-left: 24px;
+		padding-right: 24px;
+	}	
+	.about-bian{
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.about{display:block;}
+	.about-bian{display:none;}
+	.banner ul li a{
+	background: url('../img/iphone_7_medium.jpg') no-repeat center;
+	background-size: 100% 100%;
+	}
+}
+/* 小于1024px */
+@media screen and (max-width: 1024px) {
+	header main{
+		padding:0 24px;
+	}	
+	.nav-box{
+		padding:0 24px;
+	}
+	.fir{
+		display: block;
+	}
+	.sec{
+		display: none;
+	}
+	.end-one{
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.end-two{
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.end-two ul li{margin-top: 10px;}
+	.end-two ul li:first-child{padding-left: 0;}
+	.end-thr{
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	/* .thr-zi{
+		padding-top: 30px;
+	} */
+}
+/* 小于768px */
+@media screen and (max-width: 768px) {
+	.fir{
+		display:none;
+	}
+	.sec{
+		display: block;
+	}
+	.list ul{
+		flex-wrap: wrap;
+	}
+	.list ul li{
+		width:100%;
+		border-right: 0;
+	}
+	.list ul li:first-child{
+		height: 255px;
+	}
+	.list ul li:nth-child(2){
+		height: 268px;
+	}
+	.list ul li:nth-child(3){
+		height: 235px;
+	}
+	.list ul li:last-child{
+		height: 255px;
+	}
+	.list ul li{
+		margin-top: 2px;
+	}
+	.list ul li:first-child a{
+		background: url('../img/ban-img111.jpg') no-repeat center;
+		background-size: 100% 100%;
+	}
+	.list ul li:nth-child(2) a{
+		background: url('../img/ban-img222.jpg') no-repeat center;
+		background-size: 100% 100%;
+	}
+	.list ul li:nth-child(3) a{
+		background: url('../img/ban-img333.jpg') no-repeat center;
+		background-size: 100% 100%;
+	}
+	.list ul li:last-child a{
+		background: url('../img/ban-img444.png') no-repeat center;
+		background-size: 100% 100%;
+	}
+	.explian{
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.about{
+		padding-left: 24px;
+		padding-right: 24px;
+	}	
+	.about-bian{
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.about{display: none;}
+	.about-bian{display: block;}
+	/* .zhongguo{
+		float:left;
+	} */
+	.thr-zi{
+		padding-top: 30px;
+	}
+	/* .end-two{height: 50px;} */
+	.banner ul li a{
+	background: url('../img/iphone_7_small.jpg') no-repeat center;
+	background-size: 100% 100%;
+	}
+}
